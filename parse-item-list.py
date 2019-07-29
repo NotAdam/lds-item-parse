@@ -1,6 +1,7 @@
 import requests
 import re
 import concurrent
+import concurrent.futures
 from bs4 import BeautifulSoup
 
 list_base_url = 'https://eu.finalfantasyxiv.com/lodestone/playguide/db/item/?page='
